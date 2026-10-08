@@ -53,12 +53,12 @@ Xinxiong Wu, Kaile Wang, Hantao Lou, **Lin Lu**, Yaodong Yang
 
 **Other things I like.**
 
-<div style="display:flex; flex-wrap:wrap; gap:16px;">
-  <figure style="flex:1 1 220px; margin:0; text-align:center;">
+<div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
+  <figure style="flex:0 1 200px; margin:0; text-align:center;">
     <img src='images/like1.jpg' alt="Glass Animals - How to Be a Human Being" width="100%">
     <figcaption>An album I love: <i>How to Be a Human Being</i> by Glass Animals</figcaption>
   </figure>
-  <figure style="flex:1 1 220px; margin:0; text-align:center;">
+  <figure style="flex:0 1 200px; margin:0; text-align:center;">
     <img src='images/like2.png' alt="My drawing for Zhi Class merch" width="100%">
     <figcaption>A drawing I made for Zhi Class merch</figcaption>
   </figure>
