@@ -12,7 +12,7 @@ redirect_from:
 
 Hi! I'm Lin, a second-year undergrad studying AI at Peking University. I've always liked algorithms and puzzles with clean answers, but the questions that keep me up now are messier: what is actually going on inside neural networks, and how much we can trust what we find there. Language models are where I started; I'd like to follow the same questions into models that see as well as read.
 
-Right now I'm in Prof. Yaodong Yang's group, exploring interpretability and alignment and starting to get into reinforcement learning.
+Right now I'm in [Prof. Yaodong Yang](https://yangyaodong.com/)'s group, exploring interpretability and alignment and starting to get into reinforcement learning.
 
 Outside of research I read (mostly literature, philosophy and psychology), draw, write, and once designed a fantasy game set on my own campus.
 

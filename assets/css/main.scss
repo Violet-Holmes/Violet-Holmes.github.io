@@ -111,7 +111,8 @@ h1:before, .anchor:before {
 $lavender : #c7cce7;
 $ice      : #b3e1e8;
 $teal     : #96c6cd;
-$teal-ink : #3d7f88;
+$teal-ink : #2f6b74;
+$plum-ink : #4a4f7a;
 
 ::selection { background: $ice; }
 
@@ -139,7 +140,7 @@ p > code {
     border: 1px solid $lavender;
     border-radius: 999px;
     box-shadow: none;
-    color: #4a4f6a;
+    color: $plum-ink;
     padding: .15rem .55rem;
     margin: 0 .15rem .35rem 0;
     display: inline-block;
@@ -152,3 +153,8 @@ p > code {
 /* figures */
 .page__content img { border-radius: 6px; }
 .badge { background-color: $teal-ink; }
+
+/* headings & emphasis in deep lavender-blue */
+.page__content h1, .page__content h2, .page__content h3,
+.author__name { color: $plum-ink; }
+.page__content strong { color: $plum-ink; }
