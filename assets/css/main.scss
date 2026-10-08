@@ -107,3 +107,48 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+/* ===== Personal palette: lavender / ice blue / teal ===== */
+$lavender : #c7cce7;
+$ice      : #b3e1e8;
+$teal     : #96c6cd;
+$teal-ink : #3d7f88;
+
+::selection { background: $ice; }
+
+/* gradient strip under the top nav */
+.masthead {
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(90deg, $lavender, $ice, $teal) 1;
+}
+
+/* section headings: soft gradient underline */
+.page__content h1 {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(90deg, $teal, $ice 45%, $lavender 75%, transparent) 1;
+}
+
+/* avatar ring */
+.author__avatar img {
+    border: 3px solid $lavender;
+    box-shadow: 0 0 0 4px rgba(179, 225, 232, .45);
+}
+
+/* research tags as pills */
+p > code {
+    background: rgba(199, 204, 231, .45);
+    border: 1px solid $lavender;
+    border-radius: 999px;
+    box-shadow: none;
+    color: #4a4f6a;
+    padding: .15rem .55rem;
+    margin: 0 .15rem .35rem 0;
+    display: inline-block;
+    &:before, &:after { content: none; }
+}
+
+/* dates in lists */
+.page__content li > em:first-child { color: $teal-ink; }
+
+/* figures */
+.page__content img { border-radius: 6px; }
+.badge { background-color: $teal-ink; }
