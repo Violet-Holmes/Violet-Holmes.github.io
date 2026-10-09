@@ -16,12 +16,15 @@ Right now I'm in [Prof. Yaodong Yang](https://yangyaodong.com/)'s group, explori
 
 Outside of research I read (mostly literature, philosophy and psychology), draw, write, and once designed a fantasy game set on my own campus.
 
-**🔍 I'm drawn to problems where...**
-
-- 🔬 A model knows more than it shows
-- 🦾 Alignment gets harder once a model can act
-- 🧠 Self-reports meet internal evidence
-- 🛡️ The answer helps make AI systems safer
+<div class="interests">
+  <div class="interests-title">🔍 I'm drawn to problems where...</div>
+  <div class="interests-grid">
+    <div class="interest c1"><span>🔬</span>A model knows more than it shows</div>
+    <div class="interest c2"><span>🦾</span>Alignment gets harder once a model can act</div>
+    <div class="interest c3"><span>🧠</span>Self-reports meet internal evidence</div>
+    <div class="interest c4"><span>🛡️</span>The answer helps make AI systems safer</div>
+  </div>
+</div>
 
 `Mechanistic Interpretability` `AI Alignment` `LLM Values` `AI Consciousness` `Metaethics`
 
@@ -32,26 +35,38 @@ Outside of research I read (mostly literature, philosophy and psychology), draw,
 
 # 📝 Publications
 
-**One Step Away: Probing Dangerous Representations Hidden by Safety Alignment**  
-Tianzhuo Yang, Shaoheng Yan, **Lin Lu**, Jiawei Chen, Kaile Wang, Yaodong Yang  
-*Under review at ACL ARR 2026 (October)*
-- **TL;DR:** Two models can look equally safe on benchmarks, yet one may still have much easier access to dangerous concepts inside. Can we measure that hidden gap directly, without further training?
+<div class="pub-card" markdown="1">
+<span class="pub-status">Under review · ACL ARR 2026</span>
 
-[**When Contextual Skills Can Be Weighted: The Compilability and Reachability of In-Context to In-Weight Learning for LLM Agents**](https://openreview.net/forum?id=imJRHYypBm)  
-Xinxiong Wu, Kaile Wang, Hantao Lou, **Lin Lu**, Yaodong Yang  
-*Under review at ICLR 2027*
-- **TL;DR:** When can a skill an LLM learns from its prompt be baked into a small weight update, so the prompt is no longer needed?
+**One Step Away: Probing Dangerous Representations Hidden by Safety Alignment**
+
+Tianzhuo Yang, Shaoheng Yan, **Lin Lu**, Jiawei Chen, Kaile Wang, Yaodong Yang
+
+<p class="pub-tldr"><b>TL;DR</b> Two models can look equally safe on benchmarks, yet one may still have much easier access to dangerous concepts inside. Can we measure that hidden gap directly, without further training?</p>
+</div>
+
+<div class="pub-card" markdown="1">
+<span class="pub-status">Under review · ICLR 2027</span>
+
+[**When Contextual Skills Can Be Weighted: The Compilability and Reachability of In-Context to In-Weight Learning for LLM Agents**](https://openreview.net/forum?id=imJRHYypBm)
+
+Xinxiong Wu, Kaile Wang, Hantao Lou, **Lin Lu**, Yaodong Yang
+
+<p class="pub-tldr"><b>TL;DR</b> When can a skill an LLM learns from its prompt be baked into a small weight update, so the prompt is no longer needed?</p>
 
 <img src='images/pub1.png' alt="In-context vs. in-weight skill learning" width="100%">
+</div>
 
 # 📖 Education
 - *2025.09 - now*, **Peking University**, B.S. in Artificial Intelligence, Zhi Class.
 
 # 🎙 Miscellaneous
 
-**Old Blog.** Long before any of this, I wrote up algorithm problems on a [blog](https://www.cnblogs.com/violetholmes) in high school. Younger me was very serious about it 😂
+**Old Blog**
 
-**Other things I like.**
+Long before any of this, I wrote up algorithm problems on a [blog](https://www.cnblogs.com/violetholmes) in high school. Younger me was very serious about it 😂
+
+**Other things I like**
 
 <div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
   <figure style="flex:0 1 200px; margin:0; text-align:center;">
